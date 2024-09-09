@@ -1,12 +1,5 @@
 const agents = [
   {
-    id: "8",
-    name: "Agent 8",
-    address: "Mecca - 300 Amherst StNashua, NH",
-    lat: "21.4362544",
-    lng: "39.6817338",
-  },
-  {
     id: "7",
     name: "Agent 7",
     address: "Ta'if - 300 Amherst StNashua, NH",
