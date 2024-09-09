@@ -1,0 +1,46 @@
+.sideBar {
+  position: absolute;
+  width: 530px;
+  height: 97%;
+  background-color: red;
+  top: 16px;
+  left: 80px;
+  z-index: 800;
+  border-radius: 8px;
+  background: #fff;
+  overflow: hidden;
+
+  /* shadow01 */
+  box-shadow: 2px 5px 5px 0px rgba(242, 242, 242, 0.6),
+    4px -4px 4px 0px rgba(242, 242, 242, 0.85);
+  padding: 24px;
+}
+
+.dealersWrapper {
+  width: 100%;
+  padding-right: 10px;
+  height: 860px;
+  overflow-y: scroll;
+}
+
+/* width */
+.dealersWrapper::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* track */
+.dealersWrapper::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px white;
+  border-radius: 10px;
+}
+
+/* Handle */
+.dealersWrapper::-webkit-scrollbar-thumb {
+  background: #d0d5dd;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.dealersWrapper::-webkit-scrollbar-thumb:hover {
+  background: #d0d5dd;
+}

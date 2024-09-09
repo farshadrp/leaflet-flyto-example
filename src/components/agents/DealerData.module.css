@@ -1,0 +1,195 @@
+.dealerData {
+  width: 100%;
+  padding: 24px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-bottom: 1px solid #d0d5dd;
+  cursor: pointer;
+}
+.dealerData:last-child {
+  border-bottom: none;
+}
+
+.dealerName {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+
+.dealerName > div > span {
+  color: var(--Main-colors-Primary-color, #039);
+  text-align: left;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.32px;
+}
+.dealerName > div > p {
+  color: var(--Gray-Primary-400, #98a2b3);
+  text-align: left;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 150% */
+  letter-spacing: -0.24px;
+}
+
+.dealerAddress {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.dealerAddress > span {
+  color: var(--Main-colors-Font-color, #101828);
+  text-align: left;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: -0.28px;
+}
+
+.dealerAddress > p {
+  color: var(--Gray-Primary-600, #475467);
+  text-align: left;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: -0.28px;
+}
+
+.dealerMoreDetails {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.dealerMoreDetails > .phone {
+  border-right: 1px solid #d0d5dd;
+  padding-right: 16px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.phone > span {
+  color: var(--Main-colors-Font-color, #101828);
+  text-align: left;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: -0.28px;
+}
+.phone > p {
+  color: var(--Gray-Primary-600, #475467);
+  text-align: left;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: -0.28px;
+}
+
+.dealerMoreDetails > .hours {
+  padding-left: 16px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+.hours > span {
+  color: var(--Main-colors-Font-color, #101828);
+  text-align: left;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: -0.28px;
+}
+
+.hourArrow {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.hoursWrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.hoursWrapper > .openHour > span {
+  text-align: left;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: -0.28px;
+}
+.open {
+  color: var(--Success-600, #039855);
+}
+.close {
+  color: var(--Error-500, #f04438);
+}
+
+.hoursWrapper > ul > li {
+  color: var(--Gray-Primary-600, #475467);
+  text-align: left;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: -0.28px;
+}
+
+.btnWrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btnWrapper > a {
+  width: 48%;
+}
+
+.btnWrapper > a > button {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #000a1f;
+  padding: 8px 0;
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: -0.28px;
+  outline: none;
+  border-radius: 8px;
+}
+
+.blackBtn {
+  background-color: #000a1f;
+}
+
+.borderBlack {
+  color: #000a1f !important;
+  background-color: transparent;
+}
+
+.today {
+  font-weight: 600 !important;
+}
